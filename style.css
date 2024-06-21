@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #0e24b4;
+}
+
+.mouse_event {
+  width: 150px;
+  height: 100px;
+  border: 1px solid white;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px;
+  position: relative;
+}
+
+.mouse_event h4 {
+  position: absolute;
+  top: -50px;
+  white-space: nowrap;
+}
+
+.container {
+  display: flex;
+}
+
+@media (max-width: 500px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+}
